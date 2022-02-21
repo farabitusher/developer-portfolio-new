@@ -1,0 +1,27 @@
+.top-banner{
+  height: 500px;
+  background-color: olivedrab;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+    display: flex;
+}
+section span{
+    color:orange
+}
+h1{
+    font-size: 48px;
+}
+h3{
+    font-size: 28px;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+
+}
+.half-width img{
+    width: 80%;
+    padding-left: 5%;
+}
