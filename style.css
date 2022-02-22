@@ -7,8 +7,16 @@ body{
 
   background-repeat: no-repeat;
 }
-section{
-    height: 500px;
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-area{
+    display: inline-block;
+}
+.flexible-content{
+    
     padding-bottom: 150px;
     display: flex;
 }
