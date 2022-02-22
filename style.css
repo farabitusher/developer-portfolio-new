@@ -13,14 +13,16 @@ body{
     background-position: right;
 }
 .experience-area{
-    display: inline-block;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:center left;
 }
 .flexible-content{
     
     padding-bottom: 150px;
     display: flex;
 }
-section span{
+.orange-color {
     color:orange
 }
 h1{
@@ -38,6 +40,21 @@ h3{
     width: 100%;
     padding-left: 5px;
 }
+.experience-item{
+    width: 40%;
+    padding: 5%;
+    box-shadow:10px 10px 30px rgb(114, 110, 110);
+    margin-right: 20px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+#full-stack{
+    border-left:10px solid tomato ;
+}
+#baby-stack{
+    border-left:10px solid rgb(71, 145, 255) ;
+}
+
 .farabi-btn{
     font-size: 20px;
     text-decoration: none;
