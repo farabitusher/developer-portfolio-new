@@ -49,10 +49,14 @@ h3{
     border-radius: 10px;
 }
 #full-stack{
-    border-left:10px solid tomato ;
+    border-left:10px solid ;
+    border-image: linear-gradient(tomato,lightsalmon);
+    border-image-slice: 1;
 }
 #baby-stack{
-    border-left:10px solid rgb(71, 145, 255) ;
+    border-left:10px solid ;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
 }
 
 .farabi-btn{
